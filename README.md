@@ -33,12 +33,12 @@
 ## **Architecture**
 
 +----------------+ +-----------------+ +------------------+
-| SkillApp (CLI) | --> uses | SkillDAO | --> uses | DbConnection |
+| SkillApp (CLI) | --------> | SkillDAO | --------> | DbConnection |
 | | | (CRUD methods) | | (JDBC, PostgreSQL)|
 +----------------+ +-----------------+ +------------------+
 ^ ^
 | |
-+--------------------- Skill Model ----------------------+
++---------------------- Skill Model ----------------------+
 
 pgsql
 Copy code
